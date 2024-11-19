@@ -1,0 +1,29 @@
+.navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #cdd4db;
+    color: Black;
+    width: 200px; 
+    height: 100vh; 
+    position: fixed; 
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+  }
+  
+  .navbar a {
+    color: Black;
+    text-decoration: none;
+    padding: 15px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-bottom: 1px solid #ffffff50; 
+    
+  }
+  
+  .navbar a:hover {
+    background-color: #555;
+    color: white;
+  }
+  
