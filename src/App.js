@@ -8,6 +8,7 @@ import KhachHang from './pages/KhachHang';
 import NhanVien from './pages/NhanVien';
 import Booking from './pages/Booking';
 import DichVu from './pages/DichVu';
+import HoaDon from "./pages/HoaDon";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/khachhang" element={<KhachHang />} />
           <Route path="/dichvu" element={<DichVu />} />
           <Route path="/booking" element={<Booking />} />
+          <Route path="/hoadon" element={<HoaDon/>}/>
         </Routes>
       </div>
     </Router>

@@ -11,6 +11,7 @@ const Navbar = () => {
       <Link to="/khachhang">Khách Hàng</Link>
       <Link to="/dichvu">Dịch Vụ</Link>
       <Link to="/booking">Booking</Link>
+      <Link to="/hoadon">Hóa Đơn </Link>
     </nav>
   );
 };

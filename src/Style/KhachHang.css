@@ -1,0 +1,162 @@
+/* Tổng quan cho container chính */
+.khachhang-page-container {
+  font-family: Arial, sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.khachhang-page-title {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Thanh tìm kiếm và thêm khách hàng */
+.khachhang-search-add-bar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.khachhang-search-add-bar input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.khachhang-search-add-bar button {
+  margin-left: 10px;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.khachhang-search-add-bar button:hover {
+  background-color: #45a049;
+}
+
+/* Bảng danh sách khách hàng */
+.khachhang-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  color: #333;
+}
+
+.khachhang-table thead tr {
+  background-color: #4caf50;
+  color: white;
+}
+
+.khachhang-table th,
+.khachhang-table td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #ddd;
+  color: #333;
+}
+
+.khachhang-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.khachhang-table tbody tr:hover {
+  background-color: #ddd;
+}
+
+.khachhang-table button {
+  padding: 6px 12px;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Modal thêm/sửa khách hàng */
+.ReactModal__Overlay {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.ReactModal__Content {
+  position: relative;
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.ReactModal__Content h2 {
+  margin-top: 0;
+  text-align: center;
+  color: #333;
+}
+
+.ReactModal__Content label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.ReactModal__Content input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.ReactModal__Content button {
+  display: inline-block;
+  width: calc(50% - 10px);
+  padding: 10px;
+  margin: 5px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-right: -15px;
+}
+
+.ReactModal__Content button[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+}
+
+.ReactModal__Content button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.ReactModal__Content button[type="button"] {
+  background-color: #f44336;
+  color: white;
+}
+
+.ReactModal__Content button[type="button"]:hover {
+  background-color: #da190b;
+}
+
+.close-button {
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
